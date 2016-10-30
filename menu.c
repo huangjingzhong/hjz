@@ -5,12 +5,14 @@
 * @Last Modified time: 2016-08-11 18:51:47
 */
 
+//离线版第一个程序
 #include <stdio.h>
 #include <stdlib.h>
+
 int main()
 {
 	char cmd[128];
-        while(1)
+    while(1)
 	{
 		scanf("%s",&cmd);
 		if(strcmp(cmd,"help") == 0)
